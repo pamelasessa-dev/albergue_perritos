@@ -1,49 +1,124 @@
-
 export interface Perrito {
   id: number;
   nombre: string;
-  peso: number;
+  raza: string;
+  sexo: string;
   edad: number;
-  caracteristicas: string[];
+  peso: number;
   esterilizado: boolean;
   imagen: string;
+  caracteristicas: string[];
 }
 
 export const perritos: Perrito[] = [
   {
-    id: 4,
+    id: 1,
     nombre: "Luna",
-    peso: 12,
+    raza: "Labrador",
+    sexo: "Hembra",
     edad: 2,
-    caracteristicas: ["Cariñosa", "Juguetona", "Sociable"],
+    peso: 25,
     esterilizado: true,
-    imagen: "https://images.unsplash.com/photo-1552053831-71594a27632d?w=600"
+    imagen: "https://images.dog.ceo/breeds/labrador/n02099712_5643.jpg",
+    caracteristicas: ["Cariñosa", "Juguetona"],
   },
   {
     id: 2,
     nombre: "Toby",
-    peso: 18,
-    edad: 1,
-    caracteristicas: ["Tranquilo", "Amigable", "Paseador"],
+    raza: "Beagle",
+    sexo: "Macho",
+    edad: 4,
+    peso: 12,
     esterilizado: false,
-    imagen: "https://images.unsplash.com/photo-1517849845537-4d257902454a?w=600"
+    imagen: "https://images.dog.ceo/breeds/beagle/n02088364_11136.jpg",
+    caracteristicas: ["Activo", "Amigable"],
   },
   {
     id: 3,
-    nombre: "Nala",
-    peso: 15,
-    edad: 3,
-    caracteristicas: ["Dulce", "Paciente", "Sociable"],
+    nombre: "Mora",
+    raza: "Golden retriever",
+    sexo: "Hembra",
+    edad: 1,
+    peso: 22,
     esterilizado: true,
-    imagen: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600"
+    imagen: "https://images.dog.ceo/breeds/retriever-golden/n02099601_3004.jpg",
+    caracteristicas: ["Dulce", "Sociable"],
   },
   {
-    id: 1,
+    id: 4,
     nombre: "Rocky",
-    peso: 20,
-    edad: 4,
-    caracteristicas: ["Activo", "Juguetón", "Curioso"],
+    raza: "Bulldog",
+    sexo: "Macho",
+    edad: 6,
+    peso: 24,
     esterilizado: false,
-    imagen: "https://media.istockphoto.com/id/2109202034/es/foto/cachorro-activo-de-labrador-labrador-negro-de-8-semanas-participando-al-aire-libre-en-el-prado.jpg?s=612x612&w=0&k=20&c=soR9fDrbOc0Y0YSsFdNxciEgkNVstFqlqbRcu6Pv3ho="
-  }
+    imagen: "https://images.dog.ceo/breeds/bulldog-english/jager-1.jpg",
+    caracteristicas: ["Tranquilo", "Leal"],
+  },
+  {
+    id: 5,
+    nombre: "Nina",
+    raza: "Caniche",
+    sexo: "Hembra",
+    edad: 3,
+    peso: 8,
+    esterilizado: true,
+    imagen: "https://images.dog.ceo/breeds/poodle-standard/n02113799_2280.jpg",
+    caracteristicas: ["Inteligente", "Activa"],
+  },
+  {
+    id: 6,
+    nombre: "Simba",
+    raza: "Pastor alemán",
+    sexo: "Macho",
+    edad: 5,
+    peso: 32,
+    esterilizado: true,
+    imagen: "https://images.dog.ceo/breeds/germanshepherd/n02106662_10820.jpg",
+    caracteristicas: ["Protector", "Obediente"],
+  },
+  {
+    id: 7,
+    nombre: "Coco",
+    raza: "Mestizo",
+    sexo: "Macho",
+    edad: 0.5,
+    peso: 5,
+    esterilizado: false,
+    imagen: "https://images.dog.ceo/breeds/mix/Polo.jpg",
+    caracteristicas: ["Juguetón", "Curioso"],
+  },
+  {
+    id: 8,
+    nombre: "Kira",
+    raza: "Beagle",
+    sexo: "Hembra",
+    edad: 8,
+    peso: 14,
+    esterilizado: true,
+    imagen: "https://images.dog.ceo/breeds/beagle/n02088364_11013.jpg",
+    caracteristicas: ["Tranquila", "Cariñosa"],
+  },
+  {
+    id: 9,
+    nombre: "Max",
+    raza: "Labrador",
+    sexo: "Macho",
+    edad: 2,
+    peso: 28,
+    esterilizado: false,
+    imagen: "https://images.dog.ceo/breeds/labrador/n02099712_7415.jpg",
+    caracteristicas: ["Energético", "Amigable"],
+  },
+  {
+    id: 10,
+    nombre: "Olivia",
+    raza: "Golden retriever",
+    sexo: "Hembra",
+    edad: 7,
+    peso: 26,
+    esterilizado: true,
+    imagen: "https://images.dog.ceo/breeds/retriever-golden/n02099601_3004.jpg",
+    caracteristicas: ["Dócil", "Sociable"],
+  },
 ];
